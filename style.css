@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+body{
+    
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo{
+    width: 20vw;
+    border: black;
+    border-radius: 50%;
+    
+}
+
+h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* for name of vi */
+#name{
+    color:rgb(102, 186, 209);
+    font-size: 30px;
+}
+/* virtual assistant font */
+#va{
+    color:rgb(27, 88, 192);
+    font-size: 30px;
+}
+/* for voice gif */
+#voice{
+    width: 130px;
+    display: none;
+}
+#mike{
+    width:20px;
+    height: 20px;
+    color: white;
+}
+#btn{
+width: 300px;
+background:linear-gradient(to right,rgb(21,161,207),rgb(98, 0, 255));
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+font-size: 15px;
+border-radius: 20px;
+color: white;
+box-shadow: 2px 2px 15px rgb(21,161,207),2px 2px 20px rgb(98, 0, 255);
+border: none;
+transition: 0.5s;
+cursor: pointer;
+
+}
+#btn:hover{
+    box-shadow: 2px 2px 25px rgb(21,161,207),2px 2px 20px rgb(98, 0, 255);
+    letter-spacing: 2px;
+}
